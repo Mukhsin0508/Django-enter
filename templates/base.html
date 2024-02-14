@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>widerai</menu></title>
+</head>
+    <body>
+        <header>
+            <a href="{% url 'Home' %}">Main Menu</a>
+            <a href="{% url 'About' %}">About our Website</a>
+            <a href="{% url 'Contact' %}">Contact us</a>
+            <a href="{% url 'Blogs' %}">Blogs</a>
+        </header>
+        
+        {% block content %}
+        {% endblock content %}
+        
+
+    </body>
+</html>
